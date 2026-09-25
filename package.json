@@ -1,0 +1,11 @@
+{
+  "name": "misa.lol-challenge",
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "pnpm -C client install && pnpm -C server install",
+    "dev:client": "pnpm -C client dev",
+    "dev:server": "pnpm -C server dev",
+    "dev": "pnpm -C client dev & pnpm -C server dev"
+  },
+  "packageManager": "pnpm@10.33.0"
+}
